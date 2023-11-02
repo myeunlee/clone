@@ -1,0 +1,109 @@
+.box {
+    width: 225px;
+    height: 125px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    line-height: 125px;
+    cursor: pointer;
+  font-size: x-large;
+      border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box span {
+    display: inline-block;
+    width: 20px;
+    margin: 0 20px; /* Adjust the margin as needed for spacing */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+/* Apply cute effect on click */
+.box span:active {
+    transform: scale(1.2); /* Increase size on click */
+    transition: transform 0.1s;
+}
+
+.red {
+    background-color: #ff6666; /* Light red */
+    color: white;
+}
+
+.orange {
+    background-color: #ffcc66; /* Light orange */
+    color: white;
+}
+
+.yellow {
+    background-color: #ffff99; /* Light yellow */
+}
+
+.green {
+    background-color: #99ff99; /* Light green */
+    color: black;
+}
+
+.blue {
+    background-color: #66b3ff; /* Light blue */
+    color: white;
+}
+
+.purple {
+    background-color: #cc99ff; /* Light purple */
+    color: white;
+}
+
+.pink {
+    background-color: #ff99cc; /* Light pink */
+}
+
+.cyan {
+    background-color: #66cccc; /* Light cyan */
+    color: white;
+}
+
+.brown {
+    background-color: #996633; /* Light brown */
+    color: white;
+}
+
+.black {
+    background-color: #333333; /* Dark gray */
+    color: white;
+}
+
+/* Cute fonts */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #ffebcd; /* Light peach background */
+}
+
+#container {
+    text-align: center;
+    margin: 50px;
+}
+
+label, button, select {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ffcc99; /* Light orange */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff9966; /* Slightly darker orange on hover */
+    transition: background-color 0.2s;
+}
